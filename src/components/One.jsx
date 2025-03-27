@@ -25,7 +25,7 @@ export default function One() {
   return (
     <section className="text-gray-600 body-font max-w-[1200px] mx-auto">
       <div className="container px-5 py-24 mx-auto">
-        <div className="flex flex-wrap -m-4">
+        <div className="flex flex-wrap -m-4 justify-center">
           {products &&
             products.map((product) => (
               <div
