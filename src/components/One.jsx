@@ -29,7 +29,7 @@ export default function One() {
           {products &&
             products.map((product) => (
               <div
-                className="p-4 md:w-1/4 transition-all  max-md:w-[320px] hover:scale-105"
+                className="p-4 md:w-1/4 max-md:w-[320px] transition-all hover:scale-105"
                 key={product.id}
                 onClick={() => ProductClick(product.id)}
               >
